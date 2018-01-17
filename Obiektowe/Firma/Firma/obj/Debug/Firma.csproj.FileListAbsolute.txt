@@ -1,0 +1,12 @@
+C:\Users\local\Desktop\Paulina Gleba PO\Firma\Firma\bin\Debug\Firma.exe.config
+C:\Users\local\Desktop\Paulina Gleba PO\Firma\Firma\obj\Debug\Firma.csprojResolveAssemblyReference.cache
+C:\Users\local\Desktop\Paulina Gleba PO\Firma\Firma\bin\Debug\Firma.exe
+C:\Users\local\Desktop\Paulina Gleba PO\Firma\Firma\bin\Debug\Firma.pdb
+C:\Users\local\Desktop\Paulina Gleba PO\Firma\Firma\obj\Debug\Firma.exe
+C:\Users\local\Desktop\Paulina Gleba PO\Firma\Firma\obj\Debug\Firma.pdb
+C:\Users\Piotrek\Desktop\Kasa fiskalna\4\-wiczenia-21.11-master\Firma\Firma\bin\Debug\Firma.exe.config
+C:\Users\Piotrek\Desktop\Kasa fiskalna\4\-wiczenia-21.11-master\Firma\Firma\obj\Debug\Firma.exe
+C:\Users\Piotrek\Desktop\Kasa fiskalna\4\-wiczenia-21.11-master\Firma\Firma\obj\Debug\Firma.pdb
+C:\Users\Piotrek\Desktop\Kasa fiskalna\4\-wiczenia-21.11-master\Firma\Firma\obj\Debug\Firma.csprojResolveAssemblyReference.cache
+C:\Users\Piotrek\Desktop\Kasa fiskalna\4\-wiczenia-21.11-master\Firma\Firma\bin\Debug\Firma.exe
+C:\Users\Piotrek\Desktop\Kasa fiskalna\4\-wiczenia-21.11-master\Firma\Firma\bin\Debug\Firma.pdb

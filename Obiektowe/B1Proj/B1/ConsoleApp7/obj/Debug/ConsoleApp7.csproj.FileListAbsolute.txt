@@ -1,0 +1,4 @@
+C:\Users\Użytkownik\source\repos\ConsoleApp7\ConsoleApp7\obj\Debug\ConsoleApp7.csprojResolveAssemblyReference.cache
+C:\Users\Użytkownik\source\repos\ConsoleApp7\ConsoleApp7\obj\Debug\ConsoleApp7.csproj.CoreCompileInputs.cache
+C:\Users\Użytkownik\Desktop\B1Proj\B1\ConsoleApp7\obj\Debug\ConsoleApp7.csprojResolveAssemblyReference.cache
+C:\Users\Użytkownik\Desktop\B1Proj\B1\ConsoleApp7\obj\Debug\ConsoleApp7.csproj.CoreCompileInputs.cache

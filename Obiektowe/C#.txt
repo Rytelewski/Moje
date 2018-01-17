@@ -1,0 +1,629 @@
+Console.WriteLine("Hello world");
+Console.ReadKey();
+Console.Clear();
+DateTime.Now.Year
+konstruktor domyœlny: public car() { }
+public string Marka { get; set; } - z w³aœciwoœciami
+https://www.p-programowanie.pl/uml/diagramy-klas-uml/#Zwiazki-pomiedzy-klasami-w-UML
+http://wmii.uwm.edu.pl/~piojas/index.php/category/programowanie-obiektowe-cwiczenia-dzienne-1718/
+----------------------------------------------------------------
+Console.WriteLine("Hello {0,10} world",l);
+{} - oznacza wypisz zmienn¹
+{0} - oznacza pierwsz¹ zmienn¹
+{0,10} - pierwsza zmienna wyrównaj prawo 10
+----------------------------------------------------------------
+Console.WriteLine("\"Hello {0,10} world\""); - wy³¹cz funkcje
+----------------------------------------------------------------
+Console.WriteLine("{0,C2}",l); - waluta
+Console.WriteLine("{0,D4}",l); - dziesiêtny
+Console.WriteLine("{0,E}",l); - zmienno z naukowym
+Console.WriteLine("{0,F3}",l); - zmienno z precyzj¹
+Console.WriteLine("{0,G}",l); - zmienno
+Console.WriteLine("{0,N}",l); - dzieli liczbê kropkami
+Console.WriteLine("{0,X4}",l); - szestnastkowym
+----------------------------------------------------------------
+string imie = Console.ReadLine();
+----------------------------------------------------------------
+int liczba = 0;
+char znak = 'x';
+string napis = "ala" + " ma kota";
+const int zmien = 3;
+----------------------------------------------------------------
+int[] tablica;
+int[] Liczby = new int[20];
+
+int[,]
+int[,] liczbyD = {{1,2,3,4}, {5,6,7,8}} - 2 x 4
+
+string str = console.readline();
+int rozmiar = convert.toint32(str;
+int[] Liczby = new int[rozmiar];
+
+int[] Licz = {1,2,3,4};
+
+for(int i=0; i<liczby.length; i++)
+liczby[i] = 999;
+
+System.Array.Clear ( Liczby, 0, Liczby.length); - wype³nij zerami
+
+int rozmiar= liczby.getlength(0); - rozmiar zwraca
+
+System.Array.Sort(Liczby); - sortowanie liczb
+
+Int[] KopiaLiczby = (int[])Liczby.Clone(); kopiuje
+
+Int[] gdzie = System.Array.IndexOf(Liczby, 7); 1 który indeks zawira 7
+
+Int[] gdzie = System.Array.LastIndexOf(Liczby, 7); ostatni który indeks zawira 7
+
+If(liczby.GetValue(1) == 2)
+{
+<zwraca wartoœæ el o tym indeksie
+}
+
+Liczby.SetValue(100,0); ustawia na miejscu 0 liczbê 100
+
+ System.Array.Reverse(Liczby); - odwraca porz¹dek
+
+---
+
+class Test
+{
+static void Drukuj(int[] Argument)
+{
+for(int i =0; i<Argument.Length; i++)
+console.writeline(Argument[i]);
+}
+
+Static void Main()
+{
+int[] Tablica = {0,1,2,3};
+Drukuj(Tablica);
+}
+}
+
+---
+
+
+----------------------------------------------------------------
+typ wyliczeniowy:
+
+[modWidocznoœci] enum ident[:typ_bazowy]
+{
+etykieta_sta³ej_1 [=wartoœæ_1]
+}
+
+
+
+enum DniTyg
+{
+poniedzialek, //wartoœæ domyœlan 0
+wtorek,          //wartoœæ domyœlan 1
+sroda              //wartoœæ domyœlan 2
+}
+
+
+enum Opcje: char
+{
+opcja1,
+opcja2,
+opcja3
+}
+
+
+deklaracja zmiennej typ wyliczeniowa:
+
+DniTyg zmienna;
+Zmienna = DniTyg.poniedzialek;
+----------------------------------------------------------------
+pakowanie i rozpakowanie:
+int iWartoœæ = 123;
+object oWartoœæ = iWartoœæ;
+int iNowaWartoœæ = (int)oWartoœæ;
+----------------------------------------------------------------
+& - and; | - or; ~ - not; ^ - xor; 
+&& - warunkowe and; || -warunkowe or; ! - negacja
+<< - przesuñ w lewo; >> przesuñ w prawo;
+np: int wynik=1 << 2; (przesuwa o 2 bity czyli wynik =4)
+----------------------------------------------------------------
+== - równe; != - ró¿ne; <= - mniejszy równy;
+----------------------------------------------------------------
+zmienna = Convert.To[typzminnej](zmienna2);
+----------------------------------------------------------------
+Pêtle:
+# while(tru){};
+# do {inst} while (!true);
+# if() inst else inst2;
+# switch(x) { case 0: x++; break; case 1: x=x+2; break; default: x=x+3; break;}
+# for( int i=0; i<3; i++) { inst};
+# foreach(char znak in zmienna) Console.WriteLine("---",znak); {dla ka¿dego znaku string wypisz pojedyñcz¹ liniê na znak}
+
+----------------------------------------------------------------
+Mody class:
+abstract
+const
+event
+override
+readonly
+sealed
+static
+virtual
+volatile
+
+----------------------------------------------------------------
+Mody dostêpu:
++ public
+# protected
+- private
+~ internal
+----------------------------------------------------------------
+tworzenie obiektu:
+
+Komputer komp = new Komputer();
+lub
+Car auto = new Car() { marka ="Ford", rokProdukcji=2014 };
+
+odwo³anie siê:
+
+nazwaObiektu.nazwaPola = coœ;
+----------------------------------------------------------------
+hermetyzacja:
+
+class Licznik
+    {
+        public int stan;
+
+        public void Zwieksz()
+        { 
+            this.stan += 1; 
+        } 
+        
+        public void Zmniejsz() 
+        { 
+            if (this.stan > 0)
+                this.stan -= 1; 
+        } 
+        public void WypiszStan() 
+        { 
+            Console.Write(this.stan); 
+        } 
+    }
+----------------------------------------------------------------
+Przeci¹¿enie: implementacja wielu metod o tej samej nazwie
+ale innym typie danych
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Class sam = new Class();
+
+            Class sam2 = new Class("ss");
+
+            Class sam3 = new Class("sda", "sad");
+
+            Console.ReadKey();
+        }
+    }
+
+class Class
+  {
+        public Class()
+        {
+        }
+ 
+        public Class(string param1)
+        {
+        }
+ 
+        public Class(string param1, string param2)
+        {
+        }
+  }
+----------------------------------------------------------------
+konstruktor w klasach:
+# this
+Czlowiek karol = new Czlowiek("Karol", 22);
+
+class Czlowiek
+{
+   public string imie;
+   public Czlowiek(string imie)
+   {
+      this.imie = imie;
+   }
+}
+----------------------------------------------------------------
+w³aœciwoœci:
+
+ private int wiek; //pole
+ public int Wiek //w³aœciwoœæ
+ {
+ get { return wiek; }
+ set { wiek = value; }
+ }
+----------------------------------------------------------------
+Par. Kopiuj¹cy
+
+public Data(Data wartoœæ)
+
+public Data(Data wartoœæ)
+{
+rok = wartoœæ.Rok;
+}
+
+skopiowanie:
+Data data1 = new Data(2004) , data2 = new Data(data1);
+----------------------------------------------------------------
+Dziedziczenie:
+
+class Figury
+{
+    public string kolorWypelnienia;
+    public string kolorObramowania;
+    public int wielkoscObramowania;
+}
+
+class Prostok¹t :Figury
+{
+
+}
+
+--
+
+class Bazowa
+{
+protected int liczba;
+}
+
+class Dziedzicz¹ca:Bazowa
+{
+public void Przelicz(int liczba)
+{
+base.liczba = liczba;
+}
+}
+----------------------------------------------------------------
+def metod do przes³aniania polimorficznie:
+https://www.p-programowanie.pl/c-sharp/metody-wirtualne-abstrakcyjne-i-polimorfizm/
+
+class Bazowa
+{
+public virtual void MetodaPrzeslaniania()
+{
+}
+}
+--
+class Polimorfizm
+{
+class Bazowa
+{
+public virtual void MetodaPrzeslaniana()
+{
+Console.WriteLine("Bazowa");
+}
+}
+
+class Dziedziczaca : Bazowa
+{
+public override void MetodaPrzeslaniana()
+{
+Console.WriteLine("Dziedziczaca");
+}
+}
+static void Main()
+{
+Dziedziczaca dzie = new Dziedziczaca();
+Bazowa baz = new Bazowa();
+
+baz.MetodaPrzeslaniana(); // wyw met z klasy bazowej
+dzie.MetodaPrzeslaniana(); // wyw met z klasy dziedzicz¹cej
+baz = (Bazowa)dzie;          // rzutowanie klasy dziedzicz¹cej na bazow¹
+baz.MetodaPrzeslaniana(); // wyw met z klasy dziedzicz¹cej
+}
+}
+----------------------------------------------------------------
+Ukrywanie metody:
+
+Class Bazowa
+{
+public void Metoda()
+{
+}
+}
+
+class Dziedziczaca : Bazowa
+{
+new public void Metoda()
+{
+}
+}
+----------------------------------------------------------------
+public sealed override void Metoda(){ }
+lub
+public sealed class ostateczna {}
+
+//nie mo¿na z niej dziedziczyæ
+----------------------------------------------------------------
+abstrakcyjne klasy:
+abstract class KlasaAbstrakcyjna
+{
+}
+
+np
+abstract class Przedmiot
+{
+protected float waga;
+}
+
+class Kubek : Przedmiot
+{
+public Kubek()
+{
+base.waga = 0.25f;
+}
+}
+
+---
+
+class Bazowa
+{
+public virtual void Metoda()
+{
+..
+}
+}
+
+class Dziedziczaca
+{
+public override voide Metoda()
+{
+...
+}
+}
+
+abstract class DziedziczacaAbstrakcyjna : Dziedziczaca 
+{
+public abstract override void Metoda();
+}
+----------------------------------------------------------------
+pub bezparametrowy konstruktor Object tworz¹cy inst Object
+public Object();
+
+równe obiekty:
+Public virtual bool Equals(object);
+Public static bools Equals (object, object);
+
+haszuj¹ce:
+public virtual int GetHashCode();
+
+Zwracaj¹ce typ instancji klasy:
+public Type GetType();
+
+Zwracaj¹cy napis reprezentuj¹cy instancjê klasy:
+public virtual string ToString();
+
+równe instancje:
+Public static bool ReferenceEquals(object, object);
+
+destruktor:
+~Object();
+
+Kobia obiektu:
+protected object MemberwiseClone();
+----------------------------------------------------------------
+struktury:
+
+struct Punkt
+{
+public int x, y;
+public Puntk ( int x, int y)
+{
+this.x=x;
+this.y=y
+}
+}
+
+inicjowanie:
+
+Punkt pkt;
+pkt.x = 10;
+pkt.y = 100;
+
+inicjowanie domyœlne:
+
+Puntk pkt = new Puntk();
+
+if(pkt.x == 0)... <bêdzie ok>
+----------------------------------------------------------------
+Interface:
+
+interface ISlownik
+{
+string Tlumacz(string Wyraz);
+}
+
+class coœ : ISlownik
+{
+}
+---
+Wirtualna implepentacja:
+
+interface IBazowy1
+{
+void Metoda1(int Liczba);
+}
+Class Implementacja : IBazowy1
+{
+public virtual void Metoda1(int Liczba)
+{
+..
+}
+}
+---
+Jawna impelentacja metod interface
+
+interface Ibazowy1
+{
+void Metoda();
+}
+
+class Implementacja : IBazowy1
+{
+void Ibazowy1.Metoda()
+{
+...
+}
+}
+Void Test(Implementacja imp)
+{
+((Ibazowy)imo.Metoda();
+}
+}
+
+--
+
+----------------------------------------------------------------
+IComparable - sortowanie:
+
+    class Temperatura:IComparable<Temperatura>
+    {
+        private double wartosc;
+
+        public Temperatura(double wart)
+        {
+            this.wartosc = wart;
+        }
+
+        public int CompareTo(Temperatura other)
+        {
+            if (other.wartosc > this.wartosc)
+            {
+                return 1;
+            }
+            else if (other.wartosc == this.wartosc)
+            {
+                return 0;
+            }
+            else
+            {
+                return -1;
+            }
+        }
+    }
+
+---
+
+class Temperatura : IComparable
+    {
+        private double wartosc;
+
+        public Temperatura(double wart) //konstruktor
+        {
+            this.wartosc = wart;
+        }
+
+        public int CompareTo(Object obj)
+        {
+            if (obj == null) return 1;
+
+            Temperatura other = obj as Temperatura;  //traktowanie obj jako typ Temperatura
+            if (other != null)
+            {
+                if (other.wartosc < this.wartosc)
+                {
+                    return 1;
+                }
+                else if (other.wartosc == this.wartosc)
+                {
+                    return 0;
+                }
+                else
+                {
+                    return -1;
+                }
+            }
+            else
+                throw new ArgumentException("Objekt nie jest temperatur¹"); //wyrzucenie wyj¹tku
+        }
+
+        public override string ToString()  //przes³oniêcie metody (aby mo¿na by³o wypisaæ na konsoli)
+        {
+
+            return this.wartosc.ToString();
+        }
+    }
+----------------------------------------------------------------
+wyj¹tki try i catch: 158str
+
+try
+{
+Funkcja: int x=10,y=0; z= x/y; z++;
+<x=Convert.ToInt32(console.readLine());>
+}
+catch (DivideByZeroException<FormatException><Exception>)
+{
+Console.WriteLine("Dzielenie przez 0");
+}
+----------------------------------------------------------------
+W³asny wyj¹tek:
+class Test
+{
+class NieAkceptowanaWartosc : Exception
+{
+}
+
+class Wartosci
+{
+public static void Procent ( Int Argument)
+{
+if(Argument<0||Argument>100)
+trow new NieAkceptowanaWartosc(); //wyj¹tek nowy
+}
+}
+static void Main()
+{
+try
+{
+Wartosci.Procent(101);
+}
+catch(NieAkceptowanaWartosc) // przechwyæ
+{
+Console.WriteLine("Niepoprawan wartoœæ");
+}
+}
+}
+----------------------------------------------------------------
+przepe³nienie arytmetyczne: 163
+checked(wyra¿enie)
+----------------------------------------------------------------
+Data/czas:
+
+203
+----------------------------------------------------------------
+W³aœciwoœci:
+
+ class Osoba
+ {
+        public int Wiek { get; set; }
+ }
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+180 string
+187 kolekcje
+210 foldery/pliki
+237 WPF

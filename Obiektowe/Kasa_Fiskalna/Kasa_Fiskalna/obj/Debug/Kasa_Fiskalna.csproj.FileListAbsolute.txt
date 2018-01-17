@@ -1,0 +1,19 @@
+C:\Users\local\Desktop\Kasa_Fiskalna\Kasa_Fiskalna\bin\Debug\Kasa_Fiskalna.exe.config
+C:\Users\local\Desktop\Kasa_Fiskalna\Kasa_Fiskalna\obj\Debug\Kasa_Fiskalna.csprojResolveAssemblyReference.cache
+C:\Users\local\Desktop\Kasa_Fiskalna\Kasa_Fiskalna\bin\Debug\Kasa_Fiskalna.exe
+C:\Users\local\Desktop\Kasa_Fiskalna\Kasa_Fiskalna\bin\Debug\Kasa_Fiskalna.pdb
+C:\Users\local\Desktop\Kasa_Fiskalna\Kasa_Fiskalna\obj\Debug\Kasa_Fiskalna.exe
+C:\Users\local\Desktop\Kasa_Fiskalna\Kasa_Fiskalna\obj\Debug\Kasa_Fiskalna.pdb
+C:\Users\Piotrek\Desktop\Kasa fiskalna\2\Kasa_Fiskalna-master\Kasa_Fiskalna\Kasa_Fiskalna\bin\Debug\Kasa_Fiskalna.exe.config
+C:\Users\Piotrek\Desktop\Kasa fiskalna\2\Kasa_Fiskalna-master\Kasa_Fiskalna\Kasa_Fiskalna\obj\Debug\Kasa_Fiskalna.exe
+C:\Users\Piotrek\Desktop\Kasa fiskalna\2\Kasa_Fiskalna-master\Kasa_Fiskalna\Kasa_Fiskalna\obj\Debug\Kasa_Fiskalna.pdb
+C:\Users\Piotrek\Desktop\Kasa fiskalna\2\Kasa_Fiskalna-master\Kasa_Fiskalna\Kasa_Fiskalna\bin\Debug\Kasa_Fiskalna.exe
+C:\Users\Piotrek\Desktop\Kasa fiskalna\2\Kasa_Fiskalna-master\Kasa_Fiskalna\Kasa_Fiskalna\bin\Debug\Kasa_Fiskalna.pdb
+C:\Users\Piotrek\Desktop\Kasa fiskalna\2\Kasa_Fiskalna-master\Kasa_Fiskalna\Kasa_Fiskalna\obj\Debug\Kasa_Fiskalna.csprojResolveAssemblyReference.cache
+C:\Users\Użytkownik\Desktop\Kasa_Fiskalna\Kasa_Fiskalna\bin\Debug\Kasa_Fiskalna.exe.config
+C:\Users\Użytkownik\Desktop\Kasa_Fiskalna\Kasa_Fiskalna\bin\Debug\Kasa_Fiskalna.exe
+C:\Users\Użytkownik\Desktop\Kasa_Fiskalna\Kasa_Fiskalna\bin\Debug\Kasa_Fiskalna.pdb
+C:\Users\Użytkownik\Desktop\Kasa_Fiskalna\Kasa_Fiskalna\obj\Debug\Kasa_Fiskalna.csprojResolveAssemblyReference.cache
+C:\Users\Użytkownik\Desktop\Kasa_Fiskalna\Kasa_Fiskalna\obj\Debug\Kasa_Fiskalna.csproj.CoreCompileInputs.cache
+C:\Users\Użytkownik\Desktop\Kasa_Fiskalna\Kasa_Fiskalna\obj\Debug\Kasa_Fiskalna.exe
+C:\Users\Użytkownik\Desktop\Kasa_Fiskalna\Kasa_Fiskalna\obj\Debug\Kasa_Fiskalna.pdb
